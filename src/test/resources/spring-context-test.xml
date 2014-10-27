@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="spring-config/spring-general.xml" />
-	<import resource="spring-config/spring-data.xml" />
+	<import resource="spring-config/spring-data-test.xml" />
 	<import resource="spring-config/spring-security.xml" />
 
 </beans>

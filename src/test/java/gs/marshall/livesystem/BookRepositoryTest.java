@@ -1,6 +1,7 @@
 package gs.marshall.livesystem;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import gs.marshall.livesystem.entity.Book;
 import gs.marshall.livesystem.repo.BookRepository;
 
@@ -11,8 +12,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations="classpath:META-INF/application-context.xml")
-//@ContextConfiguration(locations="classpath:META-INF/test-context.xml")
+@ContextConfiguration(locations="classpath:spring-context-test.xml")
 public class BookRepositoryTest {
 
 	@Autowired

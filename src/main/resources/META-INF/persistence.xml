@@ -13,18 +13,6 @@
 		</properties>
 	</persistence-unit>
 	
-	<!-- Persistence for login -->
-	<persistence-unit name="livesystem-persistence-users"
-		transaction-type="RESOURCE_LOCAL">
-		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<properties>
-			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
-			<property name="hibernate.show_sql" value="true" />
-			<property name="hibernate.format_sql" value="true" />
-			<property name="hibernate.hbm2ddl.auto" value="update"/>
-		</properties>
-	</persistence-unit>
-	
 	<!-- Persistence for tests -->
 	<persistence-unit name="livesystem-persistence-test"
 		transaction-type="RESOURCE_LOCAL">

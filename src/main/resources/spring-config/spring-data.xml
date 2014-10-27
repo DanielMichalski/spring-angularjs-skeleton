@@ -16,8 +16,6 @@
         <property name="password" value="postgres"/>
     </bean>
     
-    <!-- TODO: data source for users/login -->
-
 	<bean id="entityManagerFactory"
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
 		<property name="dataSource" ref="datasource-main" />
