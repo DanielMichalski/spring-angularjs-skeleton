@@ -1,8 +1,7 @@
+# Eclipse files
 /target
 /bin
 
 .classpath
-.tern-project
-.springBeans
 .project
 .settings/

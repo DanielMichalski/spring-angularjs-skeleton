@@ -2,7 +2,7 @@ Requirements:
 
 - Java JDK 8
 
-- Application Server which provides Servlets 3.1 (e.g. Tomcat 8)
+- Application server which provides Servlets 3.1 (e.g. Tomcat 8)
 
 - Maven
 
