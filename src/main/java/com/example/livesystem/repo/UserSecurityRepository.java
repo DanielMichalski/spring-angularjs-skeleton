@@ -1,6 +1,4 @@
-package gs.marshall.livesystem.repo;
-
-import gs.marshall.livesystem.entity.User;
+package com.example.livesystem.repo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -8,6 +6,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.example.livesystem.entity.User;
 
 @Repository
 public class UserSecurityRepository implements UserDetailsService {

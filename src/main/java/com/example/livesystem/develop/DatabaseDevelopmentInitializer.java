@@ -1,15 +1,15 @@
-package gs.marshall.livesystem.develop;
-
-import gs.marshall.livesystem.entity.Book;
-import gs.marshall.livesystem.entity.User;
-import gs.marshall.livesystem.repo.BookRepository;
-import gs.marshall.livesystem.repo.UserRepository;
+package com.example.livesystem.develop;
 
 import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
+
+import com.example.livesystem.entity.Book;
+import com.example.livesystem.entity.User;
+import com.example.livesystem.repo.BookRepository;
+import com.example.livesystem.repo.UserRepository;
 
 /**
  * Only for development time.

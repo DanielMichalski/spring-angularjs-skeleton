@@ -1,9 +1,4 @@
-package gs.marshall.livesystem.rest;
-
-import gs.marshall.livesystem.dto.TokenTransfer;
-import gs.marshall.livesystem.dto.UserTransfer;
-import gs.marshall.livesystem.security.UserSecurityService;
-import gs.marshall.livesystem.security.TokenUtils;
+package com.example.livesystem.rest;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,6 +20,11 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Component;
+
+import com.example.livesystem.dto.TokenTransfer;
+import com.example.livesystem.dto.UserTransfer;
+import com.example.livesystem.security.TokenUtils;
+import com.example.livesystem.security.UserSecurityService;
 
 @Component
 @Path("/user")

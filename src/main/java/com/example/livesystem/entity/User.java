@@ -1,4 +1,4 @@
-package gs.marshall.livesystem.entity;
+package com.example.livesystem.entity;
 
 import java.io.Serializable;
 import java.util.Collection;

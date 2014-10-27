@@ -1,6 +1,4 @@
-package gs.marshall.livesystem.entity;
-
-import gs.marshall.livesystem.JsonViews;
+package com.example.livesystem.entity;
 
 import java.io.Serializable;
 
@@ -12,6 +10,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import org.codehaus.jackson.map.annotate.JsonView;
+
+import com.example.livesystem.JsonViews;
 
 @Entity
 @Table(name = "books")

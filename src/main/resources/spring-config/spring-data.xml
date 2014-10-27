@@ -26,7 +26,7 @@
 		<property name="entityManagerFactory" ref="entityManagerFactory" />
 	</bean>
 
-	<jpa:repositories base-package="gs.marshall.livesystem.repo"></jpa:repositories>
+	<jpa:repositories base-package="com.example.livesystem.repo"></jpa:repositories>
 	
 	<tx:annotation-driven transaction-manager="transactionManager" />
 </beans>

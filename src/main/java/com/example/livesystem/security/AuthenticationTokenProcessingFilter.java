@@ -1,4 +1,4 @@
-package gs.marshall.livesystem.security;
+package com.example.livesystem.security;
 
 import java.io.IOException;
 

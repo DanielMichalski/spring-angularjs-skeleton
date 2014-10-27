@@ -1,4 +1,4 @@
-package gs.marshall.livesystem;
+package com.example.livesystem;
 
 public class JsonViews {
 

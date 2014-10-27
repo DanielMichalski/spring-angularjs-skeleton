@@ -1,9 +1,4 @@
-package gs.marshall.livesystem.rest;
-
-import gs.marshall.livesystem.JsonViews;
-import gs.marshall.livesystem.entity.Book;
-import gs.marshall.livesystem.repo.BookRepository;
-import gs.marshall.livesystem.security.UserSecurityService;
+package com.example.livesystem.rest;
 
 import java.io.IOException;
 import java.util.List;
@@ -24,6 +19,11 @@ import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.map.ObjectWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import com.example.livesystem.JsonViews;
+import com.example.livesystem.entity.Book;
+import com.example.livesystem.repo.BookRepository;
+import com.example.livesystem.security.UserSecurityService;
 
 @Component
 @Path("/books")

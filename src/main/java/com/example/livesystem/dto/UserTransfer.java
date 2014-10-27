@@ -1,4 +1,4 @@
-package gs.marshall.livesystem.dto;
+package com.example.livesystem.dto;
 
 import java.util.Map;
 
