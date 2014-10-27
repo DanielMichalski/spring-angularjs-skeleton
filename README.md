@@ -7,3 +7,6 @@ Requirements:
 - Maven
 
 - Database: PostgreSQL (on default port, with database "livesystem"), username: postgres, password: postgres
+
+
+For tests is used H2 database (all is already configured).
